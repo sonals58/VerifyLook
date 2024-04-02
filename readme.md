@@ -28,8 +28,10 @@ A web application which authenticates user by face detection and recognition usi
 3. *Configure Environment Variables*: Set up environment variables for MongoDB connection, JWT secret, and any other necessary configurations. Create a .env file in the backend directory and add your configurations:
    
    * MONGODB_URI=your-mongodb-uri
-   * JWT_SECRET=your-jwt-secret
+   * TOKEN_KEY=your-jwt-secret
    * API_PORT=your-api-port
+   * PRIVATE_KEY=your-private-key
+   * FRONTEND_URL='http://localhost:3000'
    ...
    
 
