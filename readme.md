@@ -1,36 +1,51 @@
+## VerifyLook App
+
+A web application which authenticates user by face detection and recognition using ReactJs, ExpressJs, NodeJs and Face_api.js
+
+## Deployed App
+
+* https://verify-look.vercel.app/
+
+## System Requirements 
+
+* NodeJS 
+* NPM (comes with node)
+* MongoDb 
+
 ## Installation
 
 1. *Clone Repository*: Clone the repository to your local machine using the following command:
    
-   git clone <repository-url>
+   git clone repository-url
    
 
 2. *Install Dependencies*: Navigate to the project directory and install dependencies for both frontend and backend:
    
-   cd <project-directory>
-   npm install
+   * cd project-directory
+    * npm install
    
 
 3. *Configure Environment Variables*: Set up environment variables for MongoDB connection, JWT secret, and any other necessary configurations. Create a .env file in the backend directory and add your configurations:
    
-   MONGODB_URI=<your-mongodb-uri>
-   JWT_SECRET=<your-jwt-secret>
+   * MONGODB_URI=your-mongodb-uri
+   * JWT_SECRET=your-jwt-secret
+   * API_PORT=your-api-port
    ...
    
 
 4. *Start Backend Server*: Run the following command to start the backend server:
    
-   cd backend
-   npm start
+   * cd ~/path/to/your/VerifyLook/server
+   * npm run dev
    
 
 5. *Start Frontend*: In a separate terminal, navigate to the frontend directory and start the React development server:
    
-   cd frontend
-   npm start
+   * cd ~/path/to/your/VerifyLook/client
+   * npm start
    
 
-6. *Access Application*: Open your web browser and navigate to http://localhost:3000 to access the face recognition web application.
+6. *Access Application*: Open your web browser and navigate to http://localhost:YOUR_CLIENT_PORT to access the face recognition web application.
 
 ## Operating Instructions
 
