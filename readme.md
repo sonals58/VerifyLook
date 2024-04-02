@@ -45,7 +45,7 @@ A web application which authenticates user by face detection and recognition usi
    * npm start
    
 
-6. *Access Application*: Open your web browser and navigate to http://localhost:YOUR_CLIENT_PORT to access the face recognition web application.
+6. *Access Application*: Open your web browser and navigate to http://localhost:3000 to access the face recognition web application.
 
 ## Operating Instructions
 
